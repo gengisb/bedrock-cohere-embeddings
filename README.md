@@ -14,12 +14,12 @@ The script expects a MongoDB collection with documents containing a 'text' field
 
 Example document structure:
 
-{
+`{
     "_id": ObjectId("..."),
     "text": "Document text content",
     "embedding": [...],  // Added by the script
     "embedding_updated_at": ISODate("...")  // Added by the script
-}
+}`
 ## Components
 
 ### MongoDBHandler Class
