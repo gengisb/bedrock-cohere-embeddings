@@ -8,7 +8,18 @@ The script provides functionality to:
 1. Fetch documents from MongoDB that need embeddings
 2. Generate embeddings using AWS Bedrock's Cohere models
 3. Update the MongoDB documents with the generated embeddings
+   
+## MongoDB Configuration
+The script expects a MongoDB collection with documents containing a 'text' field. The generated embeddings will be stored in an 'embedding' field.
 
+Example document structure:
+
+{
+    "_id": ObjectId("..."),
+    "text": "Document text content",
+    "embedding": [...],  // Added by the script
+    "embedding_updated_at": ISODate("...")  // Added by the script
+}
 ## Components
 
 ### MongoDBHandler Class
