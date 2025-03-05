@@ -35,9 +35,9 @@ Key configuration parameters:
 - `MODEL_ID`: "cohere.embed-multilingual-v3" (or "cohere.embed-english-v3")
 - `BATCH_SIZE`: 96 (Cohere's maximum batch size)
 - MongoDB Configuration:
-  - Database: 'mydata'
-  - Collection: 'usecase1'
-  - Cluster: 'cluster2.bofm7.mongodb.net'
+  - Database: 'input your DB'
+  - Collection: 'input your Collection'
+  - Cluster: 'input your Cluster'
 
 ## Prerequisites
 
